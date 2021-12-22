@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>
+            Ekta Computer Institute
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://font-awesomets.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.php"><img src="images/logo.png" alt="Logo-Image"></a>
+                <div class="nav-links" id="nav-links">
+                <em class="fa fa-times" onclick="hideMenu()"></em>
+                    <ul>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="about.html"> About</a></li>
+                        <li><a href="course.html"> Course</a></li>
+                        <li><a href="blog.html"> Blog</a></li>
+                        <li><a href="course.html"> Contact</a></li>
+                    </ul>
+                </div>    
+                    <em class="fa fa-bars" onclick="showMenu()"></em>
+            </nav>
+            <div class="text-box">
+                <h1>World Best Institute</h1>
+                <p>Making Website is now one of the easiest thing in the world. You just need to learn HTML, CSS,</br> Javascript and you good to go.
+
+                </p>
+                <a href="#" class="hero-btn"> Visit to us To know more</a>
+
+            </div>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rem assumenda excepturi enim vero! Itaque explicabo sed ducimus ipsa,<br> laudantium sunt ratione velit, fugiat tempore, eius error eaque? Tempora, voluptates!</p>
+            <div class="icon">
+                <em class="fa fa-facebook"></em>
+                <em class="fa fa-instagram"></em>
+                <em class="fa fa-linkedin"></em>
+                <em class="fa fa-twitter"></em>
+
+            </div>
+            <p>Made By <em class="fa fa-heart-o"></em> by Torana Inc</p>
+        </section>
+
+
+        <script type="text/javascript">
+
+            /**
+             * 
+             * toggle menu code
+             */
+        var navLinks = document.getElementById("nav-links");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            
+        }
+        
+        </script>
+
+    </body>
+</html>
